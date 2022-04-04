@@ -1,0 +1,11 @@
+.chart{
+   display: flex; 
+   /* width: 1000px; */
+   justify-content: space-around;
+   align-items: center;
+}
+.cart-head{
+    color: rgb(37, 37, 175);
+    font-size: 25px;
+    font-weight: bold;
+}
