@@ -7,10 +7,11 @@ import Header from './component/header/Header';
 import Home from './component/home/Home';
 import NotFound from './component/NotFound/NotFound';
 import Reviews from './component/reviews/Reviews';
+import  './App.css'
 
 const App = () => {
     return (
-        <div>
+        <div className='total-shop'>
             <Header></Header>
            <Routes>
                <Route path="/" element={<Home></Home>}></Route>

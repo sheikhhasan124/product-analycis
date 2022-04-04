@@ -1,0 +1,52 @@
+
+.shop{
+
+    display: flex;
+    margin-top: 100px;
+     justify-content: center;
+     align-items: center;
+     width: 1100px;
+     
+}
+.shop-header{
+    width: 60%;
+    margin-right: 20px;
+}
+.shop-header p{
+    font-size: 20px;
+    text-align: justify;
+}
+.shop-header button{
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.shop-banner img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+}
+.customer-reviews{
+    text-align: center;
+}
+.customer-reviews .heading{
+    font-size: 30px;
+    margin-top:20px ;
+}
+.customer-reviews button{
+    padding: 25px 90px;
+    font-size: 25px;
+    letter-spacing: 7px;
+    border: none;
+    margin-top: 20px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.customer-reviews-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    
+}
