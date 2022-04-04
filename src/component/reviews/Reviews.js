@@ -1,9 +1,14 @@
 import React from 'react';
+import UserReviews from '../../customHook/UserReviews';
+import CustomerReviews from '../customerReviews/CustomerReviews';
 
 const Reviews = () => {
+    const [reviews, setReviews]=UserReviews()
     return (
         <div>
-            <h3>reviews</h3>
+            <div className="customer-reviews-section">
+            {reviews.map(review=><CustomerReviews key={review.id} review={review}></CustomerReviews>)}
+        </div>
         </div>
     );
 };

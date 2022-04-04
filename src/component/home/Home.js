@@ -1,16 +1,14 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import UserReviews from '../../customHook/UserReviews';
 import img from '../../img/tshirt.jpg'
 import CustomerReviews from '../customerReviews/CustomerReviews';
 import './Home.css'
 
 const Home = () => {
-    const [reviews, setReviews]=useState([])
+    const [reviews, setReviews]=UserReviews()
 
-    useEffect(()=>{
-        fetch('fakeData.json')
-        .then(res=>res.json())
-        .then(data=>setReviews(data))
-    },[])
+    
     return (
         <div className=''>
             
@@ -29,7 +27,7 @@ const Home = () => {
                   <div className="customer-reviews-section">
                        {reviews.slice(0,3).map(review=><CustomerReviews key={review.id} review={review}></CustomerReviews>)}
                   </div>
-                <button>see reviwe</button>
+               <Link to={'/reviews'}> <button>see reviwe</button></Link>
             </div>
         </div>
     );
