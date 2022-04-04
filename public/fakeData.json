@@ -2,8 +2,9 @@
     {
         "id": "1",
         "name": "James",
-        "ratings": 4,
-         "comments":"My daughter and I purchased 6 of these tops for our 5 week trip to India. We wore them constantly and washed them almost daily. After hand washing and wringing, we simply hung them on a hanger and they dried quickly and wrinkle-free. Even the ribbing around the neck kept it's shape!"      
+        "ratings": 4.5,
+         "comments":"My daughter and I purchased 6 of these tops for our 5 week trip to India. We wore them constantly and washed them almost daily. After hand washing and wringing, we simply hung them on a hanger and they dried quickly and wrinkle-free. Even the ribbing around the neck kept it's shape!" ,
+         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv9zzOmzF32TNcQ2O93T21Serg2aJj5O-1hrQdZiE6ITGiKLsW4rjgVpX-asQYXa4iVeA&usqp=CAU"    
       
         
       },
@@ -11,15 +12,17 @@
         "id": "2",
         "name": "simon",
         "ratings": 4,
-         "comments":"I love that you cannot see through this white shirt. It’s is a fairly thicker material. I am 5’5” and weigh 185. I purchased a large hoping it would fit. And it surpassed my expectations."      
-      
+         "comments":"I love that you cannot see through this white shirt. It’s is a fairly thicker material. I am 5’5” and weigh 185. I purchased a large hoping it would fit. And it surpassed my expectations." ,
+         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkUW8efD7bflab3-oM4OKMyFcT7AR0Tkqt11mLcfB9Tu_iSo_nnjwsc44QDRhEcYxAHJE&usqp=CAU"    
+       
         
       },
     {
         "id": "3",
         "name": "conni arnold",
-        "ratings": 4,
-         "comments":"Love these basic T-shirt! I will be ordering more colors. The fabric is super soft and no scratchy tag. The V at the neck is the perfect length and the shirt overall has a great length."      
+        "ratings": 4.5,
+         "comments":"Love these basic T-shirt! I will be ordering more colors. The fabric is super soft and no scratchy tag. The V at the neck is the perfect length and the shirt overall has a great length." ,
+         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTieOryyrOg9HeVRpFVnxk5IqLrCbk3GOBYCw&usqp=CAU"     
       
         
       },
@@ -27,23 +30,24 @@
         "id": "4",
         "name": "Ellison",
         "ratings": 4,
-         "comments":"Perfect fit!!! I’m a 38DD, 5’10” size 16 woman and the XL is true to size. Not to mention did not shrink in the drier. I’m ordering more!!"      
-      
+         "comments":"Perfect fit!!! Im a 38DD, 510” size 16 woman and the XL is true to size. Not to mention did not shrink in the drier. Im ordering more!!"  ,    
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4rsSzLimlQyniEtUV4-1raljzFhS45QBeAw&usqp=CAU"
         
       },
     {
         "id": "5",
         "name": "James Lemon",
-        "ratings": 4,
-         "comments":"Purchased XL. I usually go with L or XL. Size 12. I'm 5'9, 175 lbs, 38DD. Loose fit around middle (which I wanted). A tiny bit tight around bust. Probably won't throw in dryer. Nice fabric weight. Not too heavy or too thin."      
-      
+        "ratings": 5,
+         "comments":"Purchased XL. I usually go with L or XL. Size 12. I'm 5'9, 175 lbs, 38DD. Loose fit around middle (which I wanted). A tiny bit tight around bust. Probably won't throw in dryer. Nice fabric weight. Not too heavy or too thin."  ,    
+         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCGODZZKWbUw66UVvCZeFBqlKiD79hktU3nA&usqp=CAU"
         
       },
     {
         "id": "6",
         "name": "Mamos",
         "ratings": 4,
-         "comments":"Great quality, not see through. I got the small and it fits perfectly-not too tight and not too loose. I'm 5'8 143lbs, waist 28. Neckline is perfect, not too deep."      
+         "comments":"Great quality, not see through. I got the small and it fits perfectly-not too tight and not too loose. I'm 5'8 143lbs, waist 28. Neckline is perfect, not too deep." ,
+         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAfh_5Ss6wMBv1ZGjMCrq95FqQyTvP5-f_KVxMxvlgKEImBeWvld4MB25kYUPPg-YsQak&usqp=CAU"     
       
         
       }

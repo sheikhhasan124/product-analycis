@@ -14,7 +14,7 @@ const Home = () => {
             
             <div className="shop">
                 <div className="shop-header">
-                    <h1>Best T-Shirt shop</h1>
+                    <h1 className='shop-heading'>Best T-Shirt collections</h1>
                     <p>A T-shirt, or tee shirt, was originally worn only by men as an undershirt. Now it is defined as a short-sleeved, collarless undershirt or any outer shirt of a similar design. It got its name because it resembles the capital letter T in shape.</p>
                     <button>Live demo</button>
                 </div>

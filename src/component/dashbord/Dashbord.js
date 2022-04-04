@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bar, BarChart, Line, LineChart, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 import './DashBord.css'
 
 const Dashbord = () => {
@@ -87,6 +87,7 @@ const Dashbord = () => {
                 <Line dataKey={'sell'}></Line>
                 <XAxis dataKey={'month'}></XAxis>
                 <YAxis></YAxis>
+                <Tooltip></Tooltip>
                 </LineChart>
            </div>
            <div className="bar-chart">
@@ -95,6 +96,7 @@ const Dashbord = () => {
                   <Bar dataKey={'investment'}  fill="#8884d8" ></Bar>
                   <XAxis dataKey={"month"}></XAxis>
                   <YAxis></YAxis>
+                  <Tooltip></Tooltip>
                </BarChart>
            </div>
         </div>

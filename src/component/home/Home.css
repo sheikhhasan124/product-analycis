@@ -2,7 +2,7 @@
 .shop{
 
     display: flex;
-    margin-top: 100px;
+     margin: 100px 0;
      justify-content: center;
      align-items: center;
      width: 1100px;
@@ -12,16 +12,21 @@
     width: 60%;
     margin-right: 20px;
 }
+.shop-heading{
+    color:rgb(55, 55, 197);
+    font-size: 30px;
+}
 .shop-header p{
-    font-size: 20px;
+    font-size: 22px;
     text-align: justify;
 }
 .shop-header button{
     border: none;
     padding: 20px 40px;
     font-size: 20px;
-    background-color: aquamarine;
+    background-color: rgb(168, 228, 209);
     border-radius: 10px;
+    font-weight: bold;
 }
 .shop-banner img{
     width: 300px;
@@ -42,7 +47,7 @@
     letter-spacing: 7px;
     border: none;
     margin-top: 20px;
-    background-color:rgb(55, 55, 197);;
+    background-color:rgb(55, 55, 197);
     border-radius: 20px;
 }
 .customer-reviews-section{

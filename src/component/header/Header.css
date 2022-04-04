@@ -1,14 +1,18 @@
 .navbar{
-    width: 700px;
+    width: 600px;
     margin: 20px auto;
-    background-color: antiquewhite;
+   /* display: inline-block; */
 }
-.navbar Link{
+/* .navbar Link{
     text-decoration: none;
-}
+} */
 .navbar .navlink{
     text-decoration: none;
     margin-left:30px ;
     font-size: 25px;
-    
+    color: black;
+    display: inline;
+}
+CustomLink{
+    display: inline;
 }
